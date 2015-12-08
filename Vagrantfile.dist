@@ -5,7 +5,7 @@ ip = "192.168.5.5"
 memory = 1024
 cpus = 2
 folders = [
-    { "map" => "/path/to/mycode", 'to' => "/path/in/vagrant/mycode"},
+    #{ "map" => "/path/to/mycode", 'to' => "/path/in/vagrant/mycode"},
 ]
 
 VAGRANTFILE_API_VERSION = "2"
