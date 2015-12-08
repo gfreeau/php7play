@@ -13,6 +13,9 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = "debian/jessie64"
 
+    # if you have vagrant-vbguest plugin, you can choose to uncomment this
+    #config.vbguest.auto_update = false
+
     config.vm.box_check_update = false
     config.vm.network "private_network", ip: ip
 
