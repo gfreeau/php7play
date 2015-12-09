@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.network "private_network", ip: ip
 
     config.vm.provider "virtualbox" do |vb|
-        vb.name = 'myphp7dev'
+        vb.name = 'php7play'
         vb.customize ["modifyvm", :id, "--memory", memory]
         vb.customize ["modifyvm", :id, "--cpus", cpus]
         vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
