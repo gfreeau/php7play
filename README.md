@@ -1,3 +1,5 @@
+Setup video: http://www.gregfreeman.io/2015/learning-php-7-setting-up-a-php-7-development-environment-with-xdebug/
+
 Setup Instructions
 ==================
 
